@@ -7,7 +7,7 @@
 
 ## Getting Started
 
-#### 1. Dependency
+#### Requirement
 * python 3.8
 * numpy 1.24.1
 * torch 1.11.0
@@ -18,7 +18,7 @@
 * flatten_dict 0.4.2
 
 
-#### 2. Datasets
+#### Datasets
 * [N-ImageNet dataset](https://github.com/82magnolia/n_imagenet). The expected file sturctures are shown below. 
 ```
 └───N_Imagenet
@@ -28,7 +28,7 @@
 ```
 
 
-#### 3. Pre-training
+#### Pre-training
 
 - Run the following code:
 
