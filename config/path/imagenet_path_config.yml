@@ -1,0 +1,8 @@
+base: ./config/path/imagenet_path.yml
+datasets:
+    train:
+        type: PretrainImageNetDataset
+        
+    eval:
+        type: PretrainImageNetDataset
+            
