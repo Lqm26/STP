@@ -18,7 +18,7 @@ def create_model(logger_name):
         dim = 1024
 
 
-    vit = timm.create_model(model_name=model_name, pretrained=False)
+    vit = timm.create_model(model_name=model_name, pretrained=True)
     vit.patch_embed = PatchEmbed(224, 16, 5, dim)
     w = vit.patch_embed.proj.weight.data
     torch.nn.init.xavier_uniform_(w.view([w.shape[0], -1]))
