@@ -30,11 +30,11 @@
 
 #### Pre-training
 
+- Change the config accordingly
 - Run the following code:
 
 ```
 python train.py --opt config/ours/pr_vits.yml --gpus 8 --num_nodes 1
-
 ``` 
 
 
